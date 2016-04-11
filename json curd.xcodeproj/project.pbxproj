@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220B7BAE1C99FF6E006AB745 /* detailviewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 220B7BAD1C99FF6D006AB745 /* detailviewcontroller.m */; };
+		220B7BB11C9A142A006AB745 /* displayinformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 220B7BB01C9A142A006AB745 /* displayinformation.m */; };
 		2298462C1C890EC600F12D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2298462B1C890EC600F12D03 /* main.m */; };
 		2298462F1C890EC600F12D03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2298462E1C890EC600F12D03 /* AppDelegate.m */; };
 		229846321C890EC600F12D03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229846311C890EC600F12D03 /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		220B7BAC1C99FF6D006AB745 /* detailviewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailviewcontroller.h; sourceTree = "<group>"; };
+		220B7BAD1C99FF6D006AB745 /* detailviewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailviewcontroller.m; sourceTree = "<group>"; };
+		220B7BAF1C9A142A006AB745 /* displayinformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = displayinformation.h; sourceTree = "<group>"; };
+		220B7BB01C9A142A006AB745 /* displayinformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = displayinformation.m; sourceTree = "<group>"; };
 		229846261C890EC600F12D03 /* json curd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "json curd.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2298462A1C890EC600F12D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2298462B1C890EC600F12D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +69,10 @@
 		2298461D1C890EC600F12D03 = {
 			isa = PBXGroup;
 			children = (
+				220B7BAF1C9A142A006AB745 /* displayinformation.h */,
+				220B7BB01C9A142A006AB745 /* displayinformation.m */,
+				220B7BAC1C99FF6D006AB745 /* detailviewcontroller.h */,
+				220B7BAD1C99FF6D006AB745 /* detailviewcontroller.m */,
 				229846281C890EC600F12D03 /* json curd */,
 				229846421C890EC600F12D03 /* json curdTests */,
 				229846271C890EC600F12D03 /* Products */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220B7BB11C9A142A006AB745 /* displayinformation.m in Sources */,
 				229846321C890EC600F12D03 /* ViewController.m in Sources */,
 				2298462F1C890EC600F12D03 /* AppDelegate.m in Sources */,
 				2298462C1C890EC600F12D03 /* main.m in Sources */,
+				220B7BAE1C99FF6E006AB745 /* detailviewcontroller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				2298464B1C890EC600F12D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2298464C1C890EC600F12D03 /* Build configuration list for PBXNativeTarget "json curdTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				2298464E1C890EC600F12D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
